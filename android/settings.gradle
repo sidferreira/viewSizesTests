@@ -1,0 +1,6 @@
+rootProject.name = 'viewSizesTests'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+
+include ':react-native-view-tester'
+project(':react-native-view-tester').projectDir = new File(rootProject.projectDir, '../react-native-view-tester/android')
