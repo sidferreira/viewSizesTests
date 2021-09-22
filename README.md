@@ -10,4 +10,6 @@ In the JAVA side, the `BLUE` will change the background to `YELLOW` and then add
 
 Now, the layout is always getting the `width: 0, height: 0`, not rendering the 3rd party contents.
 
+The frame has `CYAN` background and should fill the `BLUE/YELLOW` view.
+
 I need a little help finding out why the layout is not calculating the size properly.
